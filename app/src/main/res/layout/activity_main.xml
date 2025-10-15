@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/la_mia_app"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tria1"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="00"
+                android:includeFontPadding="false"
+                android:text="$"
+                android:tooltipText="-" />
+
+            <Button
+                android:id="@+id/tria2"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="01"
+                android:text="$"
+                android:tooltipText="-" />
+
+            <Button
+                android:id="@+id/tria3"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="02"
+                android:text="$" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tria4"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="10"
+                android:text="$" />
+
+            <Button
+                android:id="@+id/tria5"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="11"
+                android:text="$"
+                android:tooltipText="-" />
+
+            <Button
+                android:id="@+id/tria6"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="12"
+                android:text="$" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tria7"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="20"
+                android:text="$" />
+
+            <Button
+                android:id="@+id/tria8"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="21"
+                android:text="$" />
+
+            <Button
+                android:id="@+id/tria9"
+                style="@style/TriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="22"
+                android:text="$" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
