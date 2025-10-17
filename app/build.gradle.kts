@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "it.volta.ts.quarte.prova"
+    namespace = "it.volta.ts.quarte.tictactoe"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "it.volta.ts.quarte.prova"
+        applicationId = "it.volta.ts.quarte.tictactoe"
         minSdk = 34
         targetSdk = 35
         versionCode = 1

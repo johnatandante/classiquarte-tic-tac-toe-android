@@ -1,12 +1,12 @@
-package it.volta.ts.quarte.prova.ui;
+package it.volta.ts.quarte.tictactoe.ui;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import it.volta.ts.quarte.prova.bean.Player;
-import it.volta.ts.quarte.prova.business.GameManager;
+import it.volta.ts.quarte.tictactoe.bean.Player;
+import it.volta.ts.quarte.tictactoe.business.GameManager;
 
 public class ButtonTriaClickListener implements View.OnClickListener {
 

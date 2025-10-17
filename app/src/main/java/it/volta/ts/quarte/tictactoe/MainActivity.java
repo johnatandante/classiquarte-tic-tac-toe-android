@@ -1,4 +1,4 @@
-package it.volta.ts.quarte.prova;
+package it.volta.ts.quarte.tictactoe;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -10,9 +10,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import it.volta.ts.quarte.prova.bean.Game;
-import it.volta.ts.quarte.prova.business.GameManager;
-import it.volta.ts.quarte.prova.ui.ButtonTriaClickListener;
+import it.volta.ts.quarte.tictactoe.bean.Game;
+import it.volta.ts.quarte.tictactoe.business.GameManager;
+import it.volta.ts.quarte.tictactoe.ui.ButtonTriaClickListener;
 
 public class MainActivity extends AppCompatActivity {
 

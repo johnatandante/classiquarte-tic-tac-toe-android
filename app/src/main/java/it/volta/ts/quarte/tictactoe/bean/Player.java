@@ -1,11 +1,11 @@
-package it.volta.ts.quarte.prova.bean;
+package it.volta.ts.quarte.tictactoe.bean;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class Player {
 
-    private String name;
+    private final String name;
 
     public Player(String name){
         this.name = name;

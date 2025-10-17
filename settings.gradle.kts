@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Prova"
+rootProject.name = "TicTacToe"
 include(":app")
  

@@ -1,7 +1,7 @@
-package it.volta.ts.quarte.prova.business;
+package it.volta.ts.quarte.tictactoe.business;
 
-import it.volta.ts.quarte.prova.bean.Game;
-import it.volta.ts.quarte.prova.bean.Player;
+import it.volta.ts.quarte.tictactoe.bean.Game;
+import it.volta.ts.quarte.tictactoe.bean.Player;
 
 public class GameManager {
 

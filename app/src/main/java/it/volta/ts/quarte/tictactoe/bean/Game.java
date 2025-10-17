@@ -1,4 +1,4 @@
-package it.volta.ts.quarte.prova.bean;
+package it.volta.ts.quarte.tictactoe.bean;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class Game {
 
     private int turn;
-    private List<Player> players;
+    private final List<Player> players;
 
     private Player winner;
 
